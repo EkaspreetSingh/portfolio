@@ -150,7 +150,7 @@ body {
 }
 
 .subtitle {
-  color: var(--dark-green);
+  color: var(--green);
   font-size: 2rem;
   font-weight: 400;
   opacity: 0;
