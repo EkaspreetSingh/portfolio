@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="images/ekas.jpeg">
+    <link rel="icon" type="image/x-icon" href="./static/images/ekas.jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
         <div class="navbar-links">
           <ul>
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/Ekaspreet Singh front-end resume.pdf">Resume</a></li>
+            <li><a href="./static/pdfs/Ekaspreet Singh front-end resume.pdf">Resume</a></li>
           </ul>
         </div>
       </nav>
@@ -31,136 +31,141 @@
         <div class="intro">
             <h1>Hello, my name is Ekas.</h1>
             <p class="subtitle">Welcome to my website!</p>
+            <div class="gap"></div>
             <div>
-                <a href="/Ekaspreet Singh front-end resume.pdf" class="neon-button">download resume</a>
+                <a href="./static/pdfs/Ekaspreet Singh front-end resume.pdf" target="_blank" class="neon-button">My Resume</a>
             </div>
         </div>
         <div class="glitch">
             My Projects
         </div>
-        <div class="row" style="margin: 50px 0px;">
+        <div class="gap"></div>
+        <div class="row">
             <div class="column">
               <div class="card">
                 <a href="https://ekaspreetsingh.github.io/spotiy-clone/" target="_blank">
-                    <h3>Spotify Clone</h3>
-                    <img src="./images/spotify.png" alt="spotify" srcset="">
-                    <p>html, css, javascript</p>
+                    <h2>Spotify Clone</h2>
+                    <img src="./static/images/spotify.png" alt="spotify" srcset="">
+                    <p>HTML , CSS and JAVASCRIPT technologies are used. The website is 100% responsive ,
+                      you can use it on mobile. This website is also hosted on GITHUB PAGES.</p>
                 </a>
               </div>
             </div> 
             <div class="column">
               <div class="card">
                 <a href="https://github.com/EkaspreetSingh/Delhi_Metro-" target="_blank">
-                    <h3>Delhi Metro DMRC Clone</h3>
-                    <img src="./images/dmrc.png">
-                    <p>flask, html, css, javascript</p>
+                    <h2>Delhi Metro DMRC Clone</h2>
+                    <img src="./static/images/dmrc.png">
+                    <p>FLASK, JAVASCRIPT, JINJA, HTML, CSS. This project was created for my college’s Industrial Training program. Dijkstra algorithm was used to
+determine the shortest route.</p>
                 </a>
               </div>
             </div>
             <div class="column">
               <div class="card">
                 <a href="https://youtu.be/qKVodlO4VPo" target="_blank">
-                    <h3>Face Recognition Attendance</h3>
-                    <img src="./images/facerecatt.png">
-                    <p>flask, opencv, html, css, javascript</p>
+                    <h2>Face Recognition Attendance</h2>
+                    <img src="./static/images/facerecatt.png">
+                    <p>HTML, CSS, JAVASCRIPT, PYTHON, FLASK, OPENCV. This project is made under Microsoft Engage 2022 mentorship program.
+                    </p>
                 </a>
               </div>
             </div>
         </div>
+        <div class="gap"></div><div class="gap"></div>
         <div class="glitch">
             My Journey
         </div>
-        <div style="margin: 50px 0;">
-            <div class="wrapper">
-                <div class="center-line">
-                  <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+        <div class="wrapper">
+            <div class="center-line">
+              <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+            </div>
+            <div class="row row-1">
+              <section>
+                <i class="icon fas fa-home"></i>
+                <div class="details">
+                  <span class="title">10th Grade</span>
+                  <span>2017-2018</span>
                 </div>
-                <div class="row row-1">
-                  <section>
-                    <i class="icon fas fa-home"></i>
-                    <div class="details">
-                      <span class="title">10th Grade</span>
-                      <span>2017-2018</span>
-                    </div>
-                    <p>Guru Harkrishan Public School, Vasant Vihar</p>
-                    <div class="bottom">
-                      <a href="https://ghpsvv.com/">website</a>
-                      <i>- 80%</i>
-                    </div>
-                  </section>
+                <p>Guru Harkrishan Public School, Vasant Vihar</p>
+                <div class="bottom">
+                  <a href="./static/pdfs/10th marksheet.pdf" target="_blank">Marksheet</a>
+                  <i>- 80%</i>
                 </div>
-                <div class="row row-2">
-                  <section>
-                    <i class="icon fas fa-star"></i>
-                    <div class="details">
-                      <span class="title">12th Grade</span>
-                      <span>2019-2020</span>
-                    </div>
-                    <p>Guru Harkrishan Public School, Vasant Vihar</p>
-                    <div class="bottom">
-                        <a href="https://ghpsvv.com/">website</a>
-                      <i>- 80%</i>
-                    </div>
-                  </section>
+              </section>
+            </div>
+            <div class="row row-2">
+              <section>
+                <i class="icon fas fa-star"></i>
+                <div class="details">
+                  <span class="title">12th Grade</span>
+                  <span>2019-2020</span>
                 </div>
-                <div class="row row-1">
-                  <section>
-                    <i class="icon fas fa-rocket"></i>
-                    <div class="details">
-                      <span class="title">B TECH</span>
-                      <span>2020-2024</span>
-                    </div>
-                    <p>Guru Tegh Bahadur Institute of Technology</p>
-                    <div class="bottom">
-                        <a href="https://www.gtbit.org/">website</a>
-                      <i>- 87%</i>
-                    </div>
-                  </section>
+                <p>Guru Harkrishan Public School, Vasant Vihar</p>
+                <div class="bottom">
+                    <a href="./static/pdfs/12th marksheet.pdf" target="_blank">Marksheet</a>
+                  <i>- 80%</i>
                 </div>
-                <!-- <div class="row row-2">
-                  <section>
-                    <i class="icon fas fa-globe"></i>
-                    <div class="details">
-                      <span class="title">Title of Section 4</span>
-                      <span>4th Jan 2021</span>
-                    </div>
-                    <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-                    <div class="bottom">
-                      <a href="#">Read more</a>
-                      <i>- Someone famous</i>
-                    </div>
-                  </section>
+              </section>
+            </div>
+            <div class="row row-1">
+              <section>
+                <i class="icon fas fa-rocket"></i>
+                <div class="details">
+                  <span class="title">B TECH</span>
+                  <span>2020-2024</span>
                 </div>
-                <div class="row row-1">
-                  <section>
-                    <i class="icon fas fa-paper-plane"></i>
-                    <div class="details">
-                      <span class="title">Title of Section 5</span>
-                      <span>5th Jan 2021</span>
-                    </div>
-                    <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-                    <div class="bottom">
-                      <a href="#">Read more</a>
-                      <i>- Someone famous</i>
-                    </div>
-                  </section>
+                <p>Guru Tegh Bahadur Institute of Technology</p>
+                <div class="bottom">
+                    <a href="https://www.ipuranklist.com/student/03313202720" target="_blank">Marksheet</a>
+                  <i>- 90.21%</i>
                 </div>
-                <div class="row row-2">
-                  <section>
-                    <i class="icon fas fa-map-marker-alt"></i>
-                    <div class="details">
-                      <span class="title">Title of Section 6</span>
-                      <span>6th Jan 2021</span>
-                    </div>
-                    <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-                    <div class="bottom">
-                      <a href="#">Read more</a>
-                      <i>- Someone famous</i>
-                    </div>
-                  </section>
+              </section>
+            </div>
+            <!-- <div class="row row-2">
+              <section>
+                <i class="icon fas fa-globe"></i>
+                <div class="details">
+                  <span class="title">Title of Section 4</span>
+                  <span>4th Jan 2021</span>
                 </div>
-              </div> -->
-        </div>      
+                <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+                <div class="bottom">
+                  <a href="#">Read more</a>
+                  <i>- Someone famous</i>
+                </div>
+              </section>
+            </div>
+            <div class="row row-1">
+              <section>
+                <i class="icon fas fa-paper-plane"></i>
+                <div class="details">
+                  <span class="title">Title of Section 5</span>
+                  <span>5th Jan 2021</span>
+                </div>
+                <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+                <div class="bottom">
+                  <a href="#">Read more</a>
+                  <i>- Someone famous</i>
+                </div>
+              </section>
+            </div>
+            <div class="row row-2">
+              <section>
+                <i class="icon fas fa-map-marker-alt"></i>
+                <div class="details">
+                  <span class="title">Title of Section 6</span>
+                  <span>6th Jan 2021</span>
+                </div>
+                <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+                <div class="bottom">
+                  <a href="#">Read more</a>
+                  <i>- Someone famous</i>
+                </div>
+              </section>
+            </div>
+          </div> -->    
+        </div>
     </div>
       <script src="script.js"></script>  
     </body>

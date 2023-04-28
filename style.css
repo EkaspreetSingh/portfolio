@@ -11,6 +11,12 @@
   --typewriterCharacters: 24;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -173,14 +179,12 @@ body {
 @keyframes fadeInUp {
   to {
     opacity: 1;
-    transform: translateY(-2rem);
+    transform: translateY(0rem);
   }
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.gap {
+  height: 2rem;
 }
 
 .neon-button {
@@ -347,24 +351,34 @@ body {
 }
 
 .card {
-  margin: auto;
-  width: 220px;
-  padding: 10px 0;
+  margin: 16px auto;
+  width: 90%;
+  padding: 16px 0;
   /* border: 1px solid #ccc; */
   /* background: var(--dark-green); */
-  box-shadow: 0 0px 8px 0 var(--dark-green);
+  box-shadow: 0 0px 8px 0 var(--clr-neon);
+  border-radius: 15px;
   text-align: center;
 }
 .card:hover {
-  box-shadow: 0 0px 16px 0 var(--green);
+  box-shadow: 0 0px 16px 0 var(--clr-neon);
 }
 .card img {
-  width: 220px;
-  height: 120px;
+  width: 95%;
+  margin: 20px 0;
 }
 .card a {
   text-decoration: none;
+}
+.card h2 {
+  text-decoration: wavy underline;
+  color: var(--light-green);
+  text-shadow: 0 0 3px #A7D129;
+}
+.card p {
   color: white;
+  text-align: justify;
+  margin: 0 25px;
 }
 
 @media (max-width: 800px) {
