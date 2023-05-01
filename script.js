@@ -72,7 +72,7 @@ canvas.addEventListener('mouseleave', function (e) {
 });
 
 function updateParticles() {
-  const REPEL_RADIUS = 60;
+  const REPEL_RADIUS = 50;
   const REPEL_SPEED = 8;
   const ATTRACTION_SPEED = 0.1;
 
