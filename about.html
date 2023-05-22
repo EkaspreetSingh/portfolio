@@ -35,25 +35,31 @@
 
       <div class="main">
 
-        <div class="glitch">
-            About Me
+        <div style="font-size: 2em; text-align: center;">
+          <span style="color: aliceblue;">I'm a</span>
+          <span id="element"></span>
         </div>
 
-        <div class="wrapper">
-            <div class="static-txt">I'm a</div>
-            <ul class="dynamic-txts">
-              <li><span>Coder</span></li>
-              <li><span>Designer</span></li>
-              <li><span>Developer</span></li>
-              <li><span>Freelancer</span></li>
+        <div class="gap"></div>
+
+        <div class="glitch">SKILLS</div>
+          <!-- SKILLS:&nbsp; html, css, JAVASCRIPT, react, flask, node, mongo, firebase -->
+          <div style="color: aliceblue; padding:10px 50px;">
+            <ul>
+              <li>html</li>
+              <li>css</li>
+              <li>JAVASCRIPT</li>
+              <li>react</li>
+              <li>flask</li>
+              <li>node</li>
+              <li>mongo</li>
+              <li>firebase</li>
             </ul>
           </div>
 
-          SKILLS:&nbsp; html, css, JAVASCRIPT, react, flask, node, mongo, firebase
-
 
           <div class="gap"></div>
-        <div class="glitch">
+          <div class="glitch">
             Education
         </div>
         <div class="wrapper">
@@ -69,7 +75,7 @@
                 </div>
                 <p>Guru Harkrishan Public School, Vasant Vihar</p>
                 <div class="bottom">
-                  <a href="./static/pdfs/10th marksheet.pdf" target="_blank">Marksheet</a>
+                  <!-- <a href="./static/pdfs/10th marksheet.pdf" target="_blank">Marksheet</a> -->
                   <i>- 80%</i>
                 </div>
               </section>
@@ -83,7 +89,7 @@
                 </div>
                 <p>Guru Harkrishan Public School, Vasant Vihar</p>
                 <div class="bottom">
-                    <a href="./static/pdfs/12th marksheet.pdf" target="_blank">Marksheet</a>
+                    <!-- <a href="./static/pdfs/12th marksheet.pdf" target="_blank">Marksheet</a> -->
                   <i>- 80%</i>
                 </div>
               </section>
@@ -97,11 +103,11 @@
                 </div>
                 <p>Guru Tegh Bahadur Institute of Technology</p>
                 <div class="bottom">
-                    <a href="https://www.ipuranklist.com/student/03313202720" target="_blank">Marksheet</a>
+                    <!-- <a href="https://www.ipuranklist.com/student/03313202720" target="_blank">Marksheet</a> -->
                   <i>- 90.21%</i>
                 </div>
               </section>
-            </div>
+            </div>   
         </div>
 
         <div class="gap"></div>
@@ -109,6 +115,14 @@
       </div>
 
     <script src="script.js"></script>  
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['Coder', 'Freelancer', 'Web Designer', 'Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
 </body>
 <footer>
     <p>
